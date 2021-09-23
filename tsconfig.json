@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "esModuleInterop": true,
+        "target": "es6",
+        "noImplicitAny": true,
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "outDir": "dist",
+        "rootDir": ".",
+        "baseUrl": ".",
+        "paths": {
+            "": [
+                "node_modules/"
+            ]
+        }
+    },
+    "include": [
+        "*"
+, "src/updaterDB.js", "src/updaterDB.js", "src/server.ts"    ],
+    "exclude": ["node_modules"]
+}
