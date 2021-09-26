@@ -3,7 +3,7 @@ import fs from "fs";
 import { scheduleJob } from "node-schedule";
 
 const projects = [
-  { maintainer: "AASF-IIITM", project: "aasf-website-backend" },
+  { maintainer: "kunaljain0212", project: "Apni-Dukan-Frontend" },
 ];
 const students = ["kunaljain0212", "tend2infinity", "hs2361", "manishprivet"];
 let score = {};
