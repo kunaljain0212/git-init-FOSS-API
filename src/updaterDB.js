@@ -2,13 +2,15 @@ import fetch from "node-fetch";
 import fs from "fs";
 import { scheduleJob } from "node-schedule";
 
-const projects = ["aasf-website-backend"];
+const projects = [
+  { maintainer: "AASF-IIITM", project: "aasf-website-backend" },
+];
 const students = ["kunaljain0212", "tend2infinity", "hs2361", "manishprivet"];
 let score = {};
 
-const getProjects = async (project) => {
+const getProjects = async (projectDetails) => {
   const response = await fetch(
-    `https://api.github.com/repos/AASF-IIITM/${project}/pulls?state=closed`
+    `https://api.github.com/repos/${projectDetails.maintainer}/${projectDetails.project}/pulls?state=closed`
   );
   const data = await response.json();
   for (let i = 0; i < data.length; i++) {
