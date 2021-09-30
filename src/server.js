@@ -1,8 +1,12 @@
+import cors from "cors";
 import express from "express";
 import fs from "fs";
 import path from "path";
 
 const app = express();
+app.use(cors({
+  origin: ["https://git-init-foss.vercel.app", "http://localhost:5000"]
+}))
 
 const __dirname = path.resolve();
 
