@@ -1,6 +1,5 @@
 import fetch from "node-fetch";
 import fs from "fs";
-import { scheduleJob } from "node-schedule";
 
 const projects = [
   { maintainer: "hs2361", project: "horario" },
@@ -488,5 +487,3 @@ const main = async () => {
 };
 
 main();
-
-const job = scheduleJob("update", "*/1 * * * *", main);

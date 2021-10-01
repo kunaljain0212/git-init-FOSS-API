@@ -5,7 +5,7 @@
   "type": "module",
   "main": "dist/src/server.js",
   "scripts": {
-    "start": "(node src/updaterDB.js &) && (sleep 5) && (node src/server.js)",
+    "start": "node server.js",
     "dev": "nodemon src/server.js"
   },
   "keywords": [],
@@ -15,7 +15,6 @@
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "node-fetch": "^3.0.0",
-    "node-schedule": "^2.0.0",
     "nodemon": "^2.0.12"
   }
 }
