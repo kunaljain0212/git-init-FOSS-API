@@ -1,0 +1,1 @@
+50 */1 * * * cd ~/AASF-hacktoberfest-api && /home/ubuntu/.nvm/versions/node/v14.17.6/bin/node src/updaterDB.js >> logs.txt 2>&1
