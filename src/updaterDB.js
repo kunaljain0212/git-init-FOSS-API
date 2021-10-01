@@ -23,7 +23,7 @@ const projects = [
   { maintainer: "secrashi", project: "Pathfinder-Visualiser" },
   { maintainer: "Swarnim01", project: "Movie_Listing_Webapp" },
   { maintainer: "secrashi", project: "Connect-Intellect" },
-  { maintainer: "GunaShekar02", project: "aasf-website-backend" },
+  { maintainer: "AASF-IIITM", project: "aasf-website-backend" },
 ];
 
 let students = {
