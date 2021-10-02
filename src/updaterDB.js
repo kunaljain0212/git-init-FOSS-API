@@ -560,20 +560,28 @@ const getProjects = async (projectDetails) => {
       new Date(data[i].merged_at) >= new Date("2021-10-01T00:00:00Z") &&
       new Date(data[i].merged_at) <= new Date("2021-10-31T23:59:59Z")
     ) {
-      data[i].labels.forEach((label) => {
-        if (label.name.toLowerCase() === "easy") {
-          score[student].score += 10;
-        } else if (
-          label.name.toLowerCase() === "medium" ||
-          label.name.toLowerCase() === "intermediate"
-        ) {
-          score[student].score += 20;
-        } else if (label.name.toLowerCase() === "hard") {
-          score[student].score += 30;
-        } else {
-          score[student].score += 10;
+      if (data[i].labels.length === 0) {
+        score[student].score += 10;
+      } else {
+        for (const label of data[i].labels) {
+          if (label.name.toLowerCase() === "easy") {
+            score[student].score += 10;
+            break;
+          } else if (
+            label.name.toLowerCase() === "medium" ||
+            label.name.toLowerCase() === "intermediate"
+          ) {
+            score[student].score += 20;
+            break;
+          } else if (label.name.toLowerCase() === "hard") {
+            score[student].score += 30;
+            break;
+          } else {
+            score[student].score += 10;
+            break;
+          }
         }
-      });
+      }
     }
   }
   return score;
