@@ -566,23 +566,24 @@ const getProjects = async (projectDetails) => {
       if (data[i].labels.length === 0) {
         score[student].score += 10;
       } else {
+        let isMedium = false;
+        let isHard = false;
         for (const label of data[i].labels) {
-          if (label.name.toLowerCase() === "easy") {
-            score[student].score += 10;
-            break;
-          } else if (
+          if (
             label.name.toLowerCase() === "medium" ||
             label.name.toLowerCase() === "intermediate"
           ) {
-            score[student].score += 20;
-            break;
+            isMedium = true;
           } else if (label.name.toLowerCase() === "hard") {
-            score[student].score += 30;
-            break;
-          } else {
-            score[student].score += 10;
-            break;
+            isHard = true;
           }
+        }
+        if (isHard) {
+          score[student].score += 30;
+        } else if (isMedium) {
+          score[student].score += 20;
+        } else {
+          score[student].score += 10;
         }
       }
     }
