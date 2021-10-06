@@ -24,6 +24,9 @@ const projects = [
   { maintainer: "Swarnim01", project: "Movie_Listing_Webapp" },
   { maintainer: "secrashi", project: "Connect-Intellect" },
   { maintainer: "AASF-IIITM", project: "aasf-website-backend" },
+  { maintainer: "4molybdenum2", project: "xylo" },
+  { maintainer: "TheNinza", project: "codeforces-contest" },
+  { maintainer: "kunaljain0212", project: "git-init-FOSS-API" }
 ];
 
 let students = {
