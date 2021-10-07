@@ -871,6 +871,7 @@ const getProjects = async (projectDetails) => {
     ) {
       if (data[i].labels.length === 0) {
         score[student].score += 10;
+        score[student].easy++;
       } else {
         let isMedium = false;
         let isHard = false;
