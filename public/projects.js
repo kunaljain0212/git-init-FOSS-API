@@ -1,4 +1,4 @@
-export const projects = [
+export default [
   { maintainer: "hs2361", project: "horario" },
   { maintainer: "hs2361", project: "k-means-compressor" },
   { maintainer: "DebadityaPal", project: "PlagiarismChecker" },

@@ -1,4 +1,4 @@
-export const students = {
+export default {
   mounicasruthi: {
     name: "Mounica Sruthi K",
     rollNumber: "2020IMT-061",

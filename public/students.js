@@ -1,4 +1,4 @@
-export const students = [
+export default [
   {
     Name: "Mounica Sruthi K",
     "Roll number (eg. 2020IMT-XXX)": "2020IMT-061",

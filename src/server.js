@@ -9,7 +9,7 @@ app.use(cors());
 const __dirname = path.resolve();
 
 app.get("/", (req, res) => {
-  fs.readFile(path.join(__dirname, "/public/score.json"), (err, data) => {
+  fs.readFile(path.join(__dirname, "public/score.json"), (err, data) => {
     if (err) {
       console.log(err);
     } else {

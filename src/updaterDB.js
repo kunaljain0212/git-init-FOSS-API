@@ -1,8 +1,8 @@
 import fetch from "node-fetch";
 import fs from "fs";
 
-import projects from "../public/projects";
-import students from "../public/studentScoreCard";
+import projects from "../public/projects.js";
+import students from "../public/studentScoreCard.js";
 
 let score = {};
 
