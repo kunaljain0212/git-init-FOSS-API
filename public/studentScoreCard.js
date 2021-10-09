@@ -67,6 +67,9 @@ export default {
     name: "Gurpreet Singh",
     rollNumber: "2020BCS-036",
     score: 0,
+    easy: 0,
+    medium: 0,
+    hard: 0,
   },
   kailash360: {
     name: "Kailash Kejriwal",
