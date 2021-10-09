@@ -12,26 +12,23 @@ This is the backend repo of git-INIT-FOSS-Client
 
 This project is made to introduce students to the world of open source. Here, the users can navigate to find the project most suitable to them and then contribute to it.
 
-## 1. Navigation
+# Features Implemented
 
-- Projects - A page where all projects of mentors is listed.
-- LeaderBoard - A page where Ranking of all contributors is listed.
+## 1. Frontend ([Frontend Repositry](https://github.com/aaryak-shah/git-init-FOSS))
 
-## 2. Search Bar
+### 1. Navigation
+
+You can navigate to projects and leaderboard from here.
+
+### 2. Search Bar
 
 - Here we can directly search for project or user using by Contributers Name,Maintainers Name,UserName,Project name etc.
 
-## 3. Projects Card
+### 3. Projects Card
 
-In this all the information about the project is given
+In this all the information about the project is given.
 
-- Project Name
-- Github Reposirty Link
-- Tech Stack
-- Project Description
-- Project Maintainers Pofile Link
-
-## 4. LeaderBoard Tile
+### 4. LeaderBoard Tile
 
 Here all the information of contributors is given
 
@@ -39,5 +36,11 @@ Here all the information of contributors is given
 - Github UserName
 - Contributors Roll Number
 - Score
+
+## 2. Backend
+
+- The **src** folder containes all the files which contains the code.
+- The **server.js** file is used to setup the server.
+-
 
 # Tech Stack Used
