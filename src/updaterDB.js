@@ -56,7 +56,7 @@ const main = async () => {
   for (let i = 0; i < projects.length; i++) {
     await getProjects(projects[i]);
   }
-  fs.writeFile("./public/score.json", JSON.stringify(score, null, 2), err => {
+  fs.writeFile("../public/score.json", JSON.stringify(score, null, 2), err => {
     if (err) {
       console.log(err);
     }
