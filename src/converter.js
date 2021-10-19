@@ -516,7 +516,7 @@ const students = [
     "Roll number (eg. 2020IMT-XXX)": "2020IMT-027",
     "GitHub username": "Hachimitsu25",
   },
-];
+];  
 
 const data = {};
 students.map((student) => {

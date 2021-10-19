@@ -17,6 +17,15 @@ app.get("/", (req, res) => {
     }
   });
 });
+app.get("/stats", (req, res) => {
+  fs.readFile(path.join(__dirname, "/src/stats.json"), (err, data) => {
+    if (err) {
+      console.log(err);
+    } else {
+      res.json(JSON.parse(data.toString()));
+    }
+  });
+})
 const PORT=3000;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);

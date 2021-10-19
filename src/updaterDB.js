@@ -853,7 +853,46 @@ let students = {
   },
 };
 
+const Stats = {
+    TotalPR:0,
+    NumberHard:0,
+    NumberEasy:0,
+    NumberMedium:0,
+    NumberOfActiveContributors:0,
+  }
+
+
 let score = {};
+let pr;
+function contributors (){
+     let data={}
+    fs.readFile("./src/score.json", function read(err, data) {
+    if (err) {
+        throw err;
+    }
+    data= JSON.parse(data);
+});
+  pr=Stats;
+  for (let i = 0; i < data.length; i++) {
+    if (data[i].score>=0) {
+      pr.NumberOfActiveContributors++;
+      if(data[i].hard>0)
+      {
+        pr.NumberHard=data[i].hard;
+      }
+      if(data[i].medium>0)
+      { 
+        pr.NumberMedium+=data[i].medium; 
+      }
+      if(data[i].easy>0)
+      { 
+        pr.NumberEasy+=data[i].easy; 
+      }
+      pr.TotalPR+=data[i].hard+data[i].medium+data[i].easy;
+       } 
+  }
+  return pr;
+};
 
 const getProjects = async (projectDetails) => {
   const response = await fetch(
@@ -912,5 +951,15 @@ const main = async () => {
   });
   score = {};
 };
+const pullrequest =() => {
+    contributors();
+    fs.writeFile("./src/stats.json", JSON.stringify(pr, null, 2), (err) => {
+      if (err) {
+        console.log(err);
+      }
+    });
+
+};
 
 main();
+pullrequest();
