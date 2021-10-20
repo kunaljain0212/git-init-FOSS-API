@@ -1,6 +1,4 @@
-import fs from "fs";
-
-const students = [
+export default [
   {
     Name: "Mounica Sruthi K",
     "Roll number (eg. 2020IMT-XXX)": "2020IMT-061",
@@ -516,16 +514,4 @@ const students = [
     "Roll number (eg. 2020IMT-XXX)": "2020IMT-027",
     "GitHub username": "Hachimitsu25",
   },
-];  
-import students from "../public/students";
-
-const data = {};
-students.map(student => {
-  data[student["GitHub username"]] = {
-    name: student["Name"],
-    rollNumber: student["Roll number (eg. 2020IMT-XXX)"],
-    score: 0,
-  };
-});
-
-fs.writeFileSync("students.json", JSON.stringify(data, null, 2));
+];

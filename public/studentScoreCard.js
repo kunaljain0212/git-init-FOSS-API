@@ -1,35 +1,4 @@
-import fetch from "node-fetch";
-import fs from "fs";
-
-const projects = [
-  { maintainer: "hs2361", project: "horario" },
-  { maintainer: "hs2361", project: "k-means-compressor" },
-  { maintainer: "DebadityaPal", project: "PlagiarismChecker" },
-  { maintainer: "4molybdenum2", project: "DSA" },
-  { maintainer: "manishprivet", project: "dynamic-gnome-wallpapers" },
-  { maintainer: "manishprivet", project: "electify" },
-  { maintainer: "Namanl2001", project: "MERN-Gurujii-dev" },
-  { maintainer: "manikmmalhotra", project: "generator-android-minks" },
-  { maintainer: "kunaljain0212", project: "Apni-Dukan-Backend" },
-  { maintainer: "aaryak-shah", project: "git-init-FOSS" },
-  { maintainer: "nafees87n", project: "codebox" },
-  { maintainer: "manikmmalhotra", project: "Noddy" },
-  { maintainer: "TheNinza", project: "vaccimailer" },
-  { maintainer: "TheNinza", project: "dsa-visualizer" },
-  { maintainer: "TheNinza", project: "vc-room" },
-  { maintainer: "nishidhaSri", project: "spacestagram" },
-  { maintainer: "nishidhaSri", project: "gsearch" },
-  { maintainer: "hitenSharm", project: "Discord-Meme-Bot" },
-  { maintainer: "secrashi", project: "Pathfinder-Visualiser" },
-  { maintainer: "Swarnim01", project: "Movie_Listing_Webapp" },
-  { maintainer: "secrashi", project: "Connect-Intellect" },
-  { maintainer: "AASF-IIITM", project: "aasf-website-backend" },
-  { maintainer: "4molybdenum2", project: "xylo" },
-  { maintainer: "TheNinza", project: "codeforces-contest" },
-  { maintainer: "kunaljain0212", project: "git-init-FOSS-API" },
-];
-
-let students = {
+export default {
   mounicasruthi: {
     name: "Mounica Sruthi K",
     rollNumber: "2020IMT-061",
@@ -98,6 +67,9 @@ let students = {
     name: "Gurpreet Singh",
     rollNumber: "2020BCS-036",
     score: 0,
+    easy: 0,
+    medium: 0,
+    hard: 0,
   },
   kailash360: {
     name: "Kailash Kejriwal",
@@ -852,116 +824,3 @@ let students = {
     hard: 0,
   },
 };
-import projects from "../public/projects.js";
-import students from "../public/studentScoreCard.js";
-
-const Stats = {
-    TotalPR:0,
-    NumberHard:0,
-    NumberEasy:0,
-    NumberMedium:0,
-    NumberOfActiveContributors:0,
-  }
-
-
-let score = {};
-let pr;
-function contributors (){
-     let data={}
-    fs.readFile("../public/score.json", function read(err, data) {
-    if (err) {
-        throw err;
-    }
-    data= JSON.parse(data);
-});
-  pr=Stats;
-  for (let i = 0; i < data.length; i++) {
-    if (data[i].score>=0) {
-      pr.NumberOfActiveContributors++;
-      if(data[i].hard>0)
-      {
-        pr.NumberHard=data[i].hard;
-      }
-      if(data[i].medium>0)
-      { 
-        pr.NumberMedium+=data[i].medium; 
-      }
-      if(data[i].easy>0)
-      { 
-        pr.NumberEasy+=data[i].easy; 
-      }
-      pr.TotalPR+=data[i].hard+data[i].medium+data[i].easy;
-       } 
-  }
-  return pr;
-};
-
-const getProjects = async projectDetails => {
-  const response = await fetch(
-    `https://api.github.com/repos/${projectDetails.maintainer}/${projectDetails.project}/pulls?state=closed`
-  );
-  score = students;
-  const data = await response.json();
-  for (let i = 0; i < data.length; i++) {
-    const student = data[i].user.login;
-    if (
-      student in students &&
-      data[i].merged_at !== null &&
-      new Date(data[i].merged_at) >= new Date("2021-10-01T00:00:00Z") &&
-      new Date(data[i].merged_at) <= new Date("2021-10-31T23:59:59Z")
-    ) {
-      if (data[i].labels.length === 0) {
-        score[student].score += 10;
-        score[student].easy++;
-      } else {
-        let isMedium = false;
-        let isHard = false;
-        for (const label of data[i].labels) {
-          if (
-            label.name.toLowerCase() === "medium" ||
-            label.name.toLowerCase() === "intermediate"
-          ) {
-            isMedium = true;
-          } else if (label.name.toLowerCase() === "hard") {
-            isHard = true;
-          }
-        }
-        if (isHard) {
-          score[student].score += 30;
-          score[student].hard++;
-        } else if (isMedium) {
-          score[student].score += 20;
-          score[student].medium++;
-        } else {
-          score[student].score += 10;
-          score[student].easy++;
-        }
-      }
-    }
-  }
-  return score;
-};
-
-const main = async () => {
-  for (let i = 0; i < projects.length; i++) {
-    await getProjects(projects[i]);
-  }
-  fs.writeFile("../public/score.json", JSON.stringify(score, null, 2), err => {
-    if (err) {
-      console.log(err);
-    }
-  });
-  score = {};
-};
-const pullrequest =() => {
-    contributors();
-    fs.writeFile("./src/stats.json", JSON.stringify(pr, null, 2), (err) => {
-      if (err) {
-        console.log(err);
-      }
-    });
-
-};
-
-main();
-pullrequest();
