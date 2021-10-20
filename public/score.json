@@ -26,8 +26,8 @@
   "AdityaPandey03": {
     "name": "Aditya Pandey",
     "rollNumber": "2020IMG-005",
-    "score": 20,
-    "easy": 2,
+    "score": 0,
+    "easy": 0,
     "medium": 0,
     "hard": 0
   },
@@ -66,15 +66,17 @@
   "gurpreet-legend": {
     "name": "Gurpreet Singh",
     "rollNumber": "2020BCS-036",
-    "score": 10,
-    "easy": null
+    "score": 0,
+    "easy": 0,
+    "medium": 0,
+    "hard": 0
   },
   "kailash360": {
     "name": "Kailash Kejriwal",
     "rollNumber": "2020BCS-044",
-    "score": 30,
-    "easy": 1,
-    "medium": 1,
+    "score": 0,
+    "easy": 0,
+    "medium": 0,
     "hard": 0
   },
   "markvrma": {
@@ -96,8 +98,8 @@
   "AmanPachori": {
     "name": "Aman Pachori",
     "rollNumber": "2020IMG-007",
-    "score": 40,
-    "easy": 4,
+    "score": 0,
+    "easy": 0,
     "medium": 0,
     "hard": 0
   },
@@ -112,8 +114,8 @@
   "XDRAGON2002": {
     "name": "Anant Vijay",
     "rollNumber": "2020BCS-010",
-    "score": 40,
-    "easy": 4,
+    "score": 0,
+    "easy": 0,
     "medium": 0,
     "hard": 0
   },
@@ -136,8 +138,8 @@
   "Sanket2055": {
     "name": "Sanket Santosh Diwate",
     "rollNumber": "2020IMT-031",
-    "score": 20,
-    "easy": 2,
+    "score": 0,
+    "easy": 0,
     "medium": 0,
     "hard": 0
   },
@@ -216,8 +218,8 @@
   "addy0110": {
     "name": "Adarsh Pandey",
     "rollNumber": "2020IMT-004",
-    "score": 20,
-    "easy": 2,
+    "score": 0,
+    "easy": 0,
     "medium": 0,
     "hard": 0
   },
@@ -272,8 +274,8 @@
   "anshkush92college": {
     "name": "Ansh Singh",
     "rollNumber": "2020IMT-013",
-    "score": 10,
-    "easy": 1,
+    "score": 0,
+    "easy": 0,
     "medium": 0,
     "hard": 0
   },
@@ -312,16 +314,16 @@
   "harshgupta1249": {
     "name": "Harsh Gupta",
     "rollNumber": "2020IMT-035",
-    "score": 20,
-    "easy": 2,
+    "score": 0,
+    "easy": 0,
     "medium": 0,
     "hard": 0
   },
   "SaahilSabu": {
     "name": "Saahil Sabu Hameed",
     "rollNumber": "2020bcs-079",
-    "score": 20,
-    "easy": 2,
+    "score": 0,
+    "easy": 0,
     "medium": 0,
     "hard": 0
   },
@@ -400,8 +402,8 @@
   "ishika-1205": {
     "name": "Ishika Chauhan",
     "rollNumber": "2020IMT-041",
-    "score": 10,
-    "easy": 1,
+    "score": 0,
+    "easy": 0,
     "medium": 0,
     "hard": 0
   },
@@ -440,16 +442,16 @@
   "iampkumar02": {
     "name": "Prashant Kumar",
     "rollNumber": "2020IMG-050",
-    "score": 10,
-    "easy": 1,
+    "score": 0,
+    "easy": 0,
     "medium": 0,
     "hard": 0
   },
   "coder284": {
     "name": "Devansh Agarwal",
     "rollNumber": "2020IMG-020",
-    "score": 10,
-    "easy": 1,
+    "score": 0,
+    "easy": 0,
     "medium": 0,
     "hard": 0
   },
@@ -464,10 +466,10 @@
   "SamarthGarg09": {
     "name": "Samarth Garg",
     "rollNumber": "2020IMT-085",
-    "score": 30,
+    "score": 0,
     "easy": 0,
     "medium": 0,
-    "hard": 1
+    "hard": 0
   },
   "thebeast1819": {
     "name": "Aman Vaishya",
@@ -704,8 +706,8 @@
   "shikhar13012001": {
     "name": "Shikhar Gupta",
     "rollNumber": "2020IMT-090",
-    "score": 10,
-    "easy": 1,
+    "score": 0,
+    "easy": 0,
     "medium": 0,
     "hard": 0
   },
