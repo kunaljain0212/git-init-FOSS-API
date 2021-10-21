@@ -4,7 +4,7 @@ import fs from "fs";
 import projects from "../public/projects.js";
 import students from "../public/studentScoreCard.js";
 
-const Stats = {
+const pr= {
     TotalPR:0,
     NumberHard:0,
     NumberEasy:0,
@@ -13,35 +13,39 @@ const Stats = {
   }
 
 let score = {};
-let pr;
-function contributors (){
-     let data={}
+
+const contributors = async ()=> {
+  
     fs.readFile("../public/score.json", function read(err, data) {
     if (err) {
         throw err;
     }
-    data= JSON.parse(data);
-});
-  pr=Stats;
-  for (let i = 0; i < data.length; i++) {
-    if (data[i].score>=0) {
+     let values= JSON.parse(data); 
+  for (const key of Object.values(values)) {
+    if (key.score>0)
+     {
       pr.NumberOfActiveContributors++;
-      if(data[i].hard>0)
+      if(key.hard>0)
       {
-        pr.NumberHard=data[i].hard;
+        pr.NumberHard+=key.hard;
       }
-      if(data[i].medium>0)
+      if(key.medium>0)
       { 
-        pr.NumberMedium+=data[i].medium; 
+        pr.NumberMedium+=key.medium; 
       }
-      if(data[i].easy>0)
+      if(key.easy>0)
       { 
-        pr.NumberEasy+=data[i].easy; 
+        pr.NumberEasy+=key.easy; 
       }
-      pr.TotalPR+=data[i].hard+data[i].medium+data[i].easy;
-       } 
-  }
-  return pr;
+      pr.TotalPR+=key.hard+key.medium+key.easy;
+     } 
+  }  
+  fs.writeFile("./stats.json", JSON.stringify(pr, null, 2), (err) => {
+    if (err) {
+      console.log(err);
+    }
+});
+});
 };
 
 const getProjects = async projectDetails => {
@@ -102,15 +106,7 @@ const main = async () => {
   score = {};
 };
 
-const pullrequest =() => {
-    contributors();
-    fs.writeFile("./stats.json", JSON.stringify(pr, null, 2), (err) => {
-      if (err) {
-        console.log(err);
-      }
-    });
 
-};
 
 main();
-pullrequest();
+contributors();
