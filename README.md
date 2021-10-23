@@ -1,18 +1,29 @@
+<div align ="center">
+
 # git-init-FOSS-API
+
+[![Github issues](https://img.shields.io/github/issues/kunaljain0212/git-init-FOSS-API?style=for-the-badge)](https://github.com/kunaljain0212/git-init-FOSS-API/issues) [![Github forks](https://img.shields.io/github/forks/kunaljain0212/git-init-FOSS-API?style=for-the-badge)](https://github.com/kunaljain0212/git-init-FOSS-API/network/members) [![Github stars](https://img.shields.io/github/stars/kunaljain0212/git-init-FOSS-API?style=for-the-badge)](https://github.com/kunaljain0212/git-init-FOSS-API/stargazers)
+
+</div>
 
 This is the backend repo of git-INIT-FOSS-Client
 
-# Screenshots
+![Screenshot](https://user-images.githubusercontent.com/84467090/135828886-1c6740f3-861e-42fc-9d64-442c6514452a.jpeg)
+<img width=50% height=90% src=https://user-images.githubusercontent.com/84467090/135836526-31442296-07c1-4fcd-bd00-5c4c7b009bc2.jpeg><img width=50% height=90% src=https://user-images.githubusercontent.com/84467090/135836654-34fbeb4b-fc0e-4c72-b858-d99e274589cc.jpeg>
 
-![file](https://user-images.githubusercontent.com/84467090/135828886-1c6740f3-861e-42fc-9d64-442c6514452a.jpeg)
-
-![file 1](https://user-images.githubusercontent.com/84467090/135836526-31442296-07c1-4fcd-bd00-5c4c7b009bc2.jpeg) ![file2](https://user-images.githubusercontent.com/84467090/135836654-34fbeb4b-fc0e-4c72-b858-d99e274589cc.jpeg)
+<div align="center">
 
 # Project Description
 
+</div>
+
 This project is made to introduce students to the world of open source. Here, the users can navigate to find the project most suitable to them and then contribute to it.
 
-# Features Implemented
+<div align="center">
+
+# Features
+
+</div>
 
 ## 1. Frontend ([Frontend Repositry](https://github.com/aaryak-shah/git-init-FOSS))
 
@@ -41,28 +52,63 @@ Here all the information of contributors is given
 
 - All the data related to the project, like student details, student scores, student score card and the projects are stored in **public** folder.
 - The **src** fetches the student details and then calculates the score of students.
+- The updaterDB.js updates the score of students. If you want to update the score manually you'll have to run (`node src\updaterDB.js`)
+- This server has a cron job built-in which runs every 1 hour and updates the scores of participants in score.json file, which is then served using a single endpoint to the frontend. If you want to update the score automatically after every one hour you'll have to run (`crontab script.cron`).
+- You can also edit the time, after which you want to update the scores in the _script.cron_ file.
 - The cron command-line utility, also known as cron job is a job scheduler on Unix-like operating systems. Users who set up and maintain software environments use cron to schedule jobs to run periodically at fixed times, dates, or intervals.
-- This server has a cron job built-in which runs every 1 hour and updates the scores of participants in score.json file, which is then served using a single endpoint to the frontend.
 - You can learn more about cron from here ([Cron](https://help.ubuntu.com/community/CronHowto#Introduction)).
 
+<div align="center">
+
 # Technologies and Packages Used
+
+</div>
 
 1. Node
 2. Express
 3. Cron
 4. Node Fetch
 
+<div align="center">
+
 # Local Setup
+
+</div>
+
+## Get Started
 
 1. Fork the repositry.
 2. Clone the repositry (`git clone URL`).
 3. Open the folder in which you cloned the repositry.
 4. Run(`npm install`).
-5. Run (`npm start`).
-6. This will start your server.
+5. Run (`npm run dev`).
+6. This will start your server locally.
 
-# Contributors
+## Building and running in production mode
 
-<a href="https://github.com/kunaljain0212/git-init-FOSS-API/graphs/contributors">
+You can run the newly built app with `npm run start`.
+
+## Contributors
+
+<br/>
+<table>
+	<tr>
+		<td>
+			<a href="https://github.com/kunaljain0212/git-init-FOSS-API/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=kunaljain0212/git-init-FOSS-API" />
 </a>
+		</td>
+	</tr>
+</table>
+
+## Connect with us
+
+<br />
+<div align ="center">
+
+<a href="https://instagram.com/aasf_iiitmg"><img src="https://img.icons8.com/ios-glyphs/50/000000/instagram-new.png"/></a>
+<a href="https://www.facebook.com/aasfiiitm/"><img src="https://img.icons8.com/material/50/000000/facebook--v1.png"/></a>
+<a href="https://www.linkedin.com/company/aasf-iiitmg"><img src="https://img.icons8.com/material/50/000000/linkedin--v1.png"/></a>
+<a href="https://medium.com/tech-iiitg"><img src="https://img.icons8.com/ios-glyphs/50/000000/medium-monogram.png"/></a>
+
+</div>
