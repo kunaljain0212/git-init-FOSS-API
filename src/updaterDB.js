@@ -14,7 +14,7 @@ const pr= {
 
 let score = {};
 
-const contributors = async ()=> {
+const contributors = ()=> {
   
     fs.readFile("../public/score.json", function read(err, data) {
     if (err) {
@@ -40,7 +40,7 @@ const contributors = async ()=> {
       pr.TotalPR+=key.hard+key.medium+key.easy;
      } 
   }  
-  fs.writeFile("./stats.json", JSON.stringify(pr, null, 2), (err) => {
+  fs.writeFile("../public/stats.json", JSON.stringify(pr, null, 2), (err) => {
     if (err) {
       console.log(err);
     }
@@ -103,10 +103,8 @@ const main = async () => {
       console.log(err);
     }
   });
+  contributors();
   score = {};
 };
-
-
-
 main();
-contributors();
+
