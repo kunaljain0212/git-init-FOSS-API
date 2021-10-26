@@ -18,7 +18,7 @@ app.get("/", (req, res) => {
   });
 });
 app.get("/stats", (req, res) => {
-  fs.readFile(path.join(__dirname, "/src/stats.json"), (err, data) => {
+  fs.readFile(path.join(__dirname, "public/stats.json"), (err, data) => {
     if (err) {
       console.log(err);
     } else {
