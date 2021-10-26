@@ -14,9 +14,9 @@ const pr= {
 
 let score = {};
 
-const contributors = ()=> {
+const contributors =()=> {
   
-    fs.readFile("../public/score.json", function read(err, data) {
+    fs.readFile("../public/score.json",(err, data) => {
     if (err) {
         throw err;
     }
