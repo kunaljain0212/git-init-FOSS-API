@@ -4,7 +4,49 @@ import fs from "fs";
 import projects from "../public/projects.js";
 import students from "../public/studentScoreCard.js";
 
+const pr= {
+    TotalPR:0,
+    NumberHard:0,
+    NumberEasy:0,
+    NumberMedium:0,
+    NumberOfActiveContributors:0,
+  }
+
 let score = {};
+
+const contributors =()=> {
+  
+    fs.readFile("../public/score.json",(err, data) => {
+    if (err) {
+        throw err;
+    }
+     let values= JSON.parse(data); 
+  for (const key of Object.values(values)) {
+    if (key.score>0)
+     {
+      pr.NumberOfActiveContributors++;
+      if(key.hard>0)
+      {
+        pr.NumberHard+=key.hard;
+      }
+      if(key.medium>0)
+      { 
+        pr.NumberMedium+=key.medium; 
+      }
+      if(key.easy>0)
+      { 
+        pr.NumberEasy+=key.easy; 
+      }
+      pr.TotalPR+=key.hard+key.medium+key.easy;
+     } 
+  }  
+  fs.writeFile("../public/stats.json", JSON.stringify(pr, null, 2), (err) => {
+    if (err) {
+      console.log(err);
+    }
+});
+});
+};
 
 const getProjects = async projectDetails => {
   const response = await fetch(
@@ -61,7 +103,8 @@ const main = async () => {
       console.log(err);
     }
   });
+  contributors();
   score = {};
 };
-
 main();
+
