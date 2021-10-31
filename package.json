@@ -5,6 +5,8 @@
   "type": "module",
   "main": "dist/src/server.js",
   "scripts": {
+    "lint": "eslint ./src --ext .js",
+    "lint:fix": "eslint --fix . && echo 'Lint complete.'",
     "start": "node src/server.js",
     "dev": "nodemon src/server.js"
   },
@@ -16,5 +18,16 @@
     "express": "^4.17.1",
     "node-fetch": "^3.0.0",
     "nodemon": "^2.0.12"
+  },
+  "devDependencies": {
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-node": "^4.1.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.4.1"
   }
 }
