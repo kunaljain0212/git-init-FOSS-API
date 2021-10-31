@@ -8,8 +8,9 @@
 
 This is the backend repo of git-INIT-FOSS-Client
 
-![Screenshot](https://user-images.githubusercontent.com/84467090/135828886-1c6740f3-861e-42fc-9d64-442c6514452a.jpeg)
-<img width=50% height=90% src=https://user-images.githubusercontent.com/84467090/135836526-31442296-07c1-4fcd-bd00-5c4c7b009bc2.jpeg><img width=50% height=90% src=https://user-images.githubusercontent.com/84467090/135836654-34fbeb4b-fc0e-4c72-b858-d99e274589cc.jpeg>
+![Screenshot](https://user-images.githubusercontent.com/84467090/139578095-b37c5507-02a9-4413-8b94-5faaf4160fad.jpeg)
+![Screenshot](https://user-images.githubusercontent.com/84467090/139578135-81f339e7-5f49-4ca6-8e3c-2a7031e6fbf5.jpeg)
+<img width=50% height=90% src=https://user-images.githubusercontent.com/84467090/139578153-7d7ecc80-2975-4d68-b9b5-1584735dd417.jpeg><img width=50% height=90% src=https://user-images.githubusercontent.com/84467090/139578184-915d63d6-9f13-45e1-8e84-fa2aff3df23e.jpeg>
 
 <div align="center">
 
@@ -47,6 +48,13 @@ Here all the information of contributors is given
 - Github UserName
 - Contributors Roll Number
 - Score
+  
+### 5.Statistics
+ Here we have the information
+ - Total number of Pull Request
+ - Total number of Active Contributers
+ - Number of Hard, Medium, Easy
+  
 
 ## 2. Backend
 
