@@ -2,8 +2,8 @@
   "mounicasruthi": {
     "name": "Mounica Sruthi K",
     "rollNumber": "2020IMT-061",
-    "score": 30,
-    "easy": 3,
+    "score": 40,
+    "easy": 4,
     "medium": 0,
     "hard": 0
   },
@@ -50,10 +50,10 @@
   "sahil-mittal": {
     "name": "Sahil Mittal",
     "rollNumber": "2020IMG-054",
-    "score": 20,
-    "easy": 2,
+    "score": 60,
+    "easy": 3,
     "medium": 0,
-    "hard": 0
+    "hard": 1
   },
   "anshrusia200": {
     "name": "Ansh Rusia",
@@ -66,26 +66,26 @@
   "gurpreet-legend": {
     "name": "Gurpreet Singh",
     "rollNumber": "2020BCS-036",
-    "score": 40,
-    "easy": 2,
+    "score": 50,
+    "easy": 3,
     "medium": 1,
     "hard": 0
   },
   "kailash360": {
     "name": "Kailash Kejriwal",
     "rollNumber": "2020BCS-044",
-    "score": 260,
-    "easy": 14,
+    "score": 310,
+    "easy": 19,
     "medium": 3,
     "hard": 2
   },
   "markvrma": {
     "name": "Mark Verma",
     "rollNumber": "2020BCS-078",
-    "score": 270,
-    "easy": 4,
-    "medium": 4,
-    "hard": 5
+    "score": 370,
+    "easy": 7,
+    "medium": 6,
+    "hard": 6
   },
   "vishwas031": {
     "name": "Vishwas Singh",
@@ -98,10 +98,10 @@
   "AmanPachori": {
     "name": "Aman Pachori",
     "rollNumber": "2020IMG-007",
-    "score": 160,
-    "easy": 11,
-    "medium": 1,
-    "hard": 1
+    "score": 320,
+    "easy": 17,
+    "medium": 3,
+    "hard": 3
   },
   "A-K-2001": {
     "name": "Anil Kumar",
@@ -122,10 +122,10 @@
   "sohan2410": {
     "name": "Sohan Bandary",
     "rollNumber": "2020IMG-016",
-    "score": 230,
-    "easy": 8,
-    "medium": 0,
-    "hard": 5
+    "score": 420,
+    "easy": 14,
+    "medium": 2,
+    "hard": 8
   },
   "ketanprakash": {
     "name": "Ketan Prakash",
@@ -282,9 +282,9 @@
   "swahim": {
     "name": "Swahim Namdev",
     "rollNumber": "2020IMG-063",
-    "score": 40,
+    "score": 60,
     "easy": 1,
-    "medium": 0,
+    "medium": 1,
     "hard": 1
   },
   "seko101": {
@@ -330,10 +330,10 @@
   "gaurav879": {
     "name": "Gaurav Sukhramani",
     "rollNumber": "2020BCS-033",
-    "score": 20,
-    "easy": 2,
+    "score": 70,
+    "easy": 4,
     "medium": 0,
-    "hard": 0
+    "hard": 1
   },
   "shadab-malik": {
     "name": "Shadab Malik",
@@ -530,9 +530,9 @@
   "rish78": {
     "name": "Rishabh Kumar",
     "rollNumber": "2020IMT-078",
-    "score": 30,
+    "score": 50,
     "easy": 1,
-    "medium": 1,
+    "medium": 2,
     "hard": 0
   },
   "adityahada": {
@@ -602,8 +602,8 @@
   "kshitij-404": {
     "name": "Kshitij Ayush",
     "rollNumber": "2020IMT-047",
-    "score": 0,
-    "easy": 0,
+    "score": 40,
+    "easy": 4,
     "medium": 0,
     "hard": 0
   },
@@ -666,8 +666,8 @@
   "pratul20": {
     "name": "Pratul Sharma",
     "rollNumber": "2020BCS-061",
-    "score": 0,
-    "easy": 0,
+    "score": 10,
+    "easy": 1,
     "medium": 0,
     "hard": 0
   },
