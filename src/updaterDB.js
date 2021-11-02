@@ -13,7 +13,7 @@ const pr= {
   }
 
 let score = {};
-
+let commitsURL = [];
 const contributors =()=> {
   
     fs.readFile("../public/score.json",(err, data) => {
@@ -62,6 +62,9 @@ const getProjects = async projectDetails => {
       new Date(data[i].merged_at) >= new Date("2021-10-01T00:00:00Z") &&
       new Date(data[i].merged_at) <= new Date("2021-10-31T23:59:59Z")
     ) {
+
+      commitsURL.push(data[i].commits_url);
+
       if (data[i].labels.length === 0) {
         score[student].score += 10;
         score[student].easy++;
@@ -99,6 +102,11 @@ const main = async () => {
     await getProjects(projects[i]);
   }
   fs.writeFile("../public/score.json", JSON.stringify(score, null, 2), err => {
+    if (err) {
+      console.log(err);
+    }
+  });
+  fs.writeFile("../public/commitsUrl.json", JSON.stringify(commitsURL, null, 2), err => {
     if (err) {
       console.log(err);
     }
