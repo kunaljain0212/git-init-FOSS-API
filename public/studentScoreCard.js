@@ -1,7 +1,7 @@
 export default {
   'Jay179-sudo': {
     name: 'Jay Prasad',
-    rollNumber: undefined,
+    rollNumber: '2021BCS-080',
     score: 0,
     easy: 0,
     medium: 0,
@@ -9,7 +9,7 @@ export default {
   },
   Aaroh1: {
     name: 'Aaroh Srivastava',
-    rollNumber: undefined,
+    rollNumber: '2021BCS-001',
     score: 0,
     easy: 0,
     medium: 0,
@@ -17,7 +17,7 @@ export default {
   },
   'R-Yash': {
     name: 'Avantsa Raja Yashwanth',
-    rollNumber: undefined,
+    rollNumber: '2021BCS-016',
     score: 0,
     easy: 0,
     medium: 0,
@@ -25,7 +25,7 @@ export default {
   },
   ishtails: {
     name: 'Kartikay Tiwari',
-    rollNumber: undefined,
+    rollNumber: '2021BCS-035',
     score: 0,
     easy: 0,
     medium: 0,
@@ -33,7 +33,7 @@ export default {
   },
   Ayushborage28: {
     name: 'Ayush Bipin Borage',
-    rollNumber: undefined,
+    rollNumber: '2021IMG-019',
     score: 0,
     easy: 0,
     medium: 0,
@@ -41,7 +41,7 @@ export default {
   },
   thegoodgamer14: {
     name: 'Aryan Sharma',
-    rollNumber: undefined,
+    rollNumber: '2021BCS-072',
     score: 0,
     easy: 0,
     medium: 0,
@@ -49,7 +49,7 @@ export default {
   },
   'coderboy yash': {
     name: 'yash nigam',
-    rollNumber: undefined,
+    rollNumber: '2021 IMT-115',
     score: 0,
     easy: 0,
     medium: 0,
@@ -57,7 +57,7 @@ export default {
   },
   'anurag-4508': {
     name: 'Anurag mandloi',
-    rollNumber: undefined,
+    rollNumber: '2021IMG-013',
     score: 0,
     easy: 0,
     medium: 0,
@@ -65,7 +65,7 @@ export default {
   },
   Prasun60: {
     name: 'Prasun Mondal',
-    rollNumber: undefined,
+    rollNumber: '2021BCS-054',
     score: 0,
     easy: 0,
     medium: 0,
@@ -73,7 +73,7 @@ export default {
   },
   Shruti78: {
     name: 'Shruti Murthy',
-    rollNumber: undefined,
+    rollNumber: '2021IMT-094',
     score: 0,
     easy: 0,
     medium: 0,
@@ -81,7 +81,7 @@ export default {
   },
   PRATYUSH0077: {
     name: 'PRATYUSH SINHA',
-    rollNumber: undefined,
+    rollNumber: 'IMT2021-076',
     score: 0,
     easy: 0,
     medium: 0,
@@ -89,7 +89,7 @@ export default {
   },
   'lata-11': {
     name: 'Lata',
-    rollNumber: undefined,
+    rollNumber: '2021-IMT-059',
     score: 0,
     easy: 0,
     medium: 0,
@@ -97,7 +97,7 @@ export default {
   },
   codesmith25103: {
     name: 'SANKALP',
-    rollNumber: undefined,
+    rollNumber: '2021IMT084',
     score: 0,
     easy: 0,
     medium: 0,
@@ -105,7 +105,7 @@ export default {
   },
   'Yushmanth-reddy': {
     name: 'Ponnolu Yushmanth Pali Reddy',
-    rollNumber: undefined,
+    rollNumber: '2021IMT-075',
     score: 0,
     easy: 0,
     medium: 0,
@@ -113,7 +113,7 @@ export default {
   },
   'Vinayak-Sutar': {
     name: 'Vinayak Sutar',
-    rollNumber: undefined,
+    rollNumber: '2021IMT-112',
     score: 0,
     easy: 0,
     medium: 0,
@@ -121,7 +121,7 @@ export default {
   },
   elbertronnie: {
     name: 'Elbert Ronnie',
-    rollNumber: undefined,
+    rollNumber: '2021IMT-033',
     score: 0,
     easy: 0,
     medium: 0,
@@ -129,7 +129,7 @@ export default {
   },
   Nihit25: {
     name: 'Nihit Moolaney',
-    rollNumber: undefined,
+    rollNumber: '2021IMT-069',
     score: 0,
     easy: 0,
     medium: 0,
@@ -137,7 +137,7 @@ export default {
   },
   Yaxhveer: {
     name: 'Yashveer',
-    rollNumber: undefined,
+    rollNumber: '2021IMT-116',
     score: 0,
     easy: 0,
     medium: 0,
