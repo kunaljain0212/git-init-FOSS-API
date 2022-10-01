@@ -1,27 +1,102 @@
 export default [
-  { maintainer: "hs2361", project: "horario" },
-  { maintainer: "hs2361", project: "k-means-compressor" },
-  { maintainer: "DebadityaPal", project: "PlagiarismChecker" },
-  { maintainer: "4molybdenum2", project: "DSA" },
-  { maintainer: "manishprivet", project: "dynamic-gnome-wallpapers" },
-  { maintainer: "manishprivet", project: "electify" },
-  { maintainer: "Namanl2001", project: "MERN-Gurujii-dev" },
-  { maintainer: "manikmmalhotra", project: "generator-android-minks" },
-  { maintainer: "kunaljain0212", project: "Apni-Dukan-Backend" },
-  { maintainer: "aaryak-shah", project: "git-init-FOSS" },
-  { maintainer: "nafees87n", project: "codebox" },
-  { maintainer: "manikmmalhotra", project: "Noddy" },
-  { maintainer: "TheNinza", project: "vaccimailer" },
-  { maintainer: "TheNinza", project: "dsa-visualizer" },
-  { maintainer: "TheNinza", project: "vc-room" },
-  { maintainer: "nishidhaSri", project: "spacestagram" },
-  { maintainer: "nishidhaSri", project: "gsearch" },
-  { maintainer: "hitenSharm", project: "Discord-Meme-Bot" },
-  { maintainer: "secrashi", project: "Pathfinder-Visualiser" },
-  { maintainer: "Swarnim01", project: "Movie_Listing_Webapp" },
-  { maintainer: "secrashi", project: "Connect-Intellect" },
-  { maintainer: "AASF-IIITM", project: "aasf-website-backend" },
-  { maintainer: "4molybdenum2", project: "xylo" },
-  { maintainer: "TheNinza", project: "codeforces-contest" },
-  { maintainer: "kunaljain0212", project: "git-init-FOSS-API" },
-];
+  {
+    "maintainer": "kailash360",
+    "project": "e-market"
+  },
+  {
+    "maintainer": "kailash360",
+    "project": "Snap-Stock"
+  },
+  {
+    "maintainer": "gurpreet_legend",
+    "project": "Expresso"
+  },
+  {
+    "maintainer": "gurpreet_legend",
+    "project": "Alan-Feed"
+  },
+  {
+    "maintainer": "gurpreet_legend",
+    "project": "Face-Recognition-Brainiac-Frontend"
+  },
+  {
+    "maintainer": "gurpreet_legend",
+    "project": "Face-Recognition-Braniac-Backend"
+  },
+  {
+    "maintainer": "gurpreet_legend",
+    "project": "whatsapp-clone"
+  },
+  {
+    "maintainer": "pratul20",
+    "project": "IIITM-Tracker"
+  },
+  {
+    "maintainer": "akashgupta1909",
+    "project": "Uthaan-Frontend"
+  },
+  {
+    "maintainer": "akashgupta1909",
+    "project": "uthaan-backend"
+  },
+  {
+    "maintainer": "ashok-arora",
+    "project": "spotify-hit-predictor"
+  },
+  {
+    "maintainer": "theninza",
+    "project": "vc-room"
+  },
+  {
+    "maintainer": "theninza",
+    "project": "imcrypt"
+  },
+  {
+    "maintainer": "theninza",
+    "project": "dsa-visualizer"
+  },
+  {
+    "maintainer": "sohan2410",
+    "project": "crypto-transactions"
+  },
+  {
+    "maintainer": "XDRAGON2002",
+    "project": "POKEDEX"
+  },
+  {
+    "maintainer": "XDRAGON2002",
+    "project": "iiiit-gram"
+  },
+  {
+    "maintainer": "varunKT001",
+    "project": "tomperjs"
+  },
+  {
+    "maintainer": "varunKT001",
+    "project": "tomper-readmify"
+  },
+  {
+    "maintainer": "varunKT001",
+    "project": "tomper-chat"
+  },
+  {
+    "maintainer": "varunKT001",
+    "project": "tloc"
+  },
+  {
+    "maintainer": "varunKT001",
+    "project": "tomper-wear-ecommerce"
+  },
+  {
+    "maintainer": "varunKT001",
+    "project": "tomper-wear-ecommerce-backend"
+  },
+  {
+    "maintainer": "varunKT001",
+    "project": "tomper-wear-ecommerce-admin"
+  },
+  {
+    "maintainer": "sadityakumar9211",
+    "project": "nextjs-nft-marketplace"
+  }
+]
