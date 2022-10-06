@@ -59,8 +59,8 @@ const getProjects = async projectDetails => {
     if (
       student in students &&
       data[i].merged_at !== null &&
-      new Date(data[i].merged_at) >= new Date("2021-10-01T00:00:00Z") &&
-      new Date(data[i].merged_at) <= new Date("2021-10-31T23:59:59Z")
+      new Date(data[i].merged_at) >= new Date("2022-10-01T00:00:00Z") &&
+      new Date(data[i].merged_at) <= new Date("2022-10-31T23:59:59Z")
     ) {
 
       commitsURL.push(data[i].commits_url);

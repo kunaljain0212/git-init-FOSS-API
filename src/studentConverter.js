@@ -7,7 +7,7 @@ const data = {};
 students.map(student => {
   data[student["GitHub username"]] = {
 			name: student["Name"],
-			rollNumber: student["Roll number (eg. 2020IMT-XXX)"],
+			rollNumber: student["Roll number (eg. 2021IMT-XXX)"],
 			score: 0,
 			easy: 0,
 			medium: 0,
@@ -15,5 +15,5 @@ students.map(student => {
 		
   };
 });
-
-fs.writeFileSync("public/studentScoreCard.js", JSON.stringify(data, null, 2));
+const str='export default '+ JSON.stringify(data)
+fs.writeFileSync("../public/studentScoreCard.js", str);

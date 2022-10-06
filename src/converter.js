@@ -6,7 +6,7 @@ const data = {};
 students.map(student => {
   data[student["GitHub username"]] = {
     name: student["Name"],
-    rollNumber: student["Roll number (eg. 2020IMT-XXX)"],
+    rollNumber: student["Roll number (eg. 2021IMT-XXX)"],
     score: 0,
   };
 });
