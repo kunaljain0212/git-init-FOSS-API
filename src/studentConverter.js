@@ -1,6 +1,6 @@
 import fs from "fs";
 
-import students from "../public/students";
+import students from "../public/students.js";
 
 const data = {};
 

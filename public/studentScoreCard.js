@@ -142,5 +142,45 @@ export default {
     easy: 0,
     medium: 0,
     hard: 0
-  }
+  },
+	AdarshK29: {
+		name: "Adarsh Kumar",
+    rollNumber: "2021IMT-004",
+    score: 0,
+    easy: 0,
+    medium: 0,
+    hard: 0
+	},
+	ImAnshuJoshi: {
+		name: "Anshu Joshi",
+    rollNumber: "2021BCS-014",
+    score: 0,
+    easy: 0,
+    medium: 0,
+    hard: 0
+	},
+	MSVelan: {
+		name: "Muthiah Sivavelan",
+    rollNumber: "2021IMG-034",
+    score: 0,
+    easy: 0,
+    medium: 0,
+    hard: 0
+	},
+	amanycodes: {
+		name: "Aman Yadav",
+    rollNumber: "2021IMG-006",
+    score: 0,
+    easy: 0,
+    medium: 0,
+    hard: 0
+	},
+	bismuth42: {
+		name: "Vani Bandodkar",
+    rollNumber: "2021IMT-108",
+    score: 0,
+    easy: 0,
+    medium: 0,
+    hard: 0
+	}
 }
