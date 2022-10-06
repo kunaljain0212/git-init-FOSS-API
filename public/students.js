@@ -88,5 +88,30 @@ export default [
     "Name": "Yashveer",
     "Roll number (eg. 2021IMT-XXX)": "2021IMT-116",
     "GitHub username": "Yaxhveer"
+  },
+	{
+    "Name": "Adarsh Kumar",
+    "Roll number (eg. 2021IMT-XXX)": "2021IMT-004",
+    "GitHub username": "AdarshK29"
+  },
+  {
+    "Name": "Anshu Joshi",
+    "Roll number (eg. 2021IMT-XXX)": "2021BCS-014",
+    "GitHub username": "ImAnshuJoshi"
+  },
+  {
+    "Name": "Muthiah Sivavelan",
+    "Roll number (eg. 2021IMT-XXX)": "2021IMG-034",
+    "GitHub username": "MSVelan"
+  },
+  {
+    "Name": "Aman Yadav",
+    "Roll number (eg. 2021IMT-XXX)": "2021IMG-006",
+    "GitHub username": "amanycodes"
+  },
+  {
+    "Name": "Vani Bandodkar",
+    "Roll number (eg. 2021IMT-XXX)": "2021-IMT-108",
+    "GitHub username": "bismuth42"
   }
 ]
