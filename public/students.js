@@ -111,7 +111,7 @@ export default [
   },
   {
     "Name": "Vani Bandodkar",
-    "Roll number (eg. 2021IMT-XXX)": "2021-IMT-108",
+    "Roll number (eg. 2021IMT-XXX)": "2021IMT-108",
     "GitHub username": "bismuth42"
   }
 ]
