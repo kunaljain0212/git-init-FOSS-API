@@ -1,1 +1,1 @@
-0 */1 * * * cd ~/AASF-hacktoberfest-api/src && /usr/bin/node updaterDB.js >> logs.txt 2>&1
+19 */1 * * * cd ~/git-init-FOSS-API/src && /usr/bin/node updaterDB.js >> logs.txt 2>&1
