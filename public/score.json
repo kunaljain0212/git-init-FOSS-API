@@ -10,8 +10,8 @@
   "Aaroh1": {
     "name": "Aaroh Srivastava",
     "rollNumber": "2021BCS-001",
-    "score": 20,
-    "easy": 2,
+    "score": 30,
+    "easy": 3,
     "medium": 0,
     "hard": 0
   },
@@ -90,16 +90,16 @@
   "lata-11": {
     "name": "Lata",
     "rollNumber": "2021-IMT-059",
-    "score": 0,
-    "easy": 0,
+    "score": 10,
+    "easy": 1,
     "medium": 0,
     "hard": 0
   },
   "codesmith25103": {
     "name": "SANKALP",
     "rollNumber": "2021IMT084",
-    "score": 10,
-    "easy": 1,
+    "score": 20,
+    "easy": 2,
     "medium": 0,
     "hard": 0
   },
