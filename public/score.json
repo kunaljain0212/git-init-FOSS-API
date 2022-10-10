@@ -10,8 +10,8 @@
   "Aaroh1": {
     "name": "Aaroh Srivastava",
     "rollNumber": "2021BCS-001",
-    "score": 0,
-    "easy": 0,
+    "score": 20,
+    "easy": 2,
     "medium": 0,
     "hard": 0
   },
@@ -98,8 +98,8 @@
   "codesmith25103": {
     "name": "SANKALP",
     "rollNumber": "2021IMT084",
-    "score": 0,
-    "easy": 0,
+    "score": 10,
+    "easy": 1,
     "medium": 0,
     "hard": 0
   },
@@ -143,44 +143,84 @@
     "medium": 0,
     "hard": 0
   },
-	"AdarshK29": {
-		"name": "Adarsh Kumar",
+  "AdarshK29": {
+    "name": "Adarsh Kumar",
     "rollNumber": "2021IMT-004",
     "score": 0,
     "easy": 0,
     "medium": 0,
     "hard": 0
-	},
-	"ImAnshuJoshi": {
-		"name": "Anshu Joshi",
+  },
+  "ImAnshuJoshi": {
+    "name": "Anshu Joshi",
     "rollNumber": "2021BCS-014",
-    "score": 0,
-    "easy": 0,
+    "score": 20,
+    "easy": 2,
     "medium": 0,
     "hard": 0
-	},
-	"MSVelan": {
-		"name": "Muthiah Sivavelan",
+  },
+  "MSVelan": {
+    "name": "Muthiah Sivavelan",
     "rollNumber": "2021IMG-034",
     "score": 0,
     "easy": 0,
     "medium": 0,
     "hard": 0
-	},
-	"amanycodes": {
-		"name": "Aman Yadav",
+  },
+  "amanycodes": {
+    "name": "Aman Yadav",
     "rollNumber": "2021IMG-006",
     "score": 0,
     "easy": 0,
     "medium": 0,
     "hard": 0
-	},
-	"bismuth42": {
-		"name": "Vani Bandodkar",
+  },
+  "bismuth42": {
+    "name": "Vani Bandodkar",
     "rollNumber": "2021IMT-108",
     "score": 0,
     "easy": 0,
     "medium": 0,
     "hard": 0
-	}
+  },
+  "Satyabrat-Ojha": {
+    "name": "Satyabrat Ojha",
+    "rollNumber": "2021IMG-054",
+    "score": 0,
+    "easy": 0,
+    "medium": 0,
+    "hard": 0
+  },
+  "jriyyya": {
+    "name": "Riya Jain",
+    "rollNumber": "2021IMG-050",
+    "score": 0,
+    "easy": 0,
+    "medium": 0,
+    "hard": 0
+  },
+  "marsian83": {
+    "name": "Spandan Barve",
+    "rollNumber": "2021BCS-064",
+    "score": 0,
+    "easy": 0,
+    "medium": 0,
+    "hard": 0
+  },
+  "Aleesha2002": {
+    "name": "Aleesha",
+    "rollNumber": "2021BCS-011",
+    "score": 0,
+    "easy": 0,
+    "medium": 0,
+    "hard": 0
+  },
+  "SakshiGoyat": {
+    "name": "Sakshi",
+    "rollNumber": "2021BCS-059",
+    "score": 0,
+    "easy": 0,
+    "medium": 0,
+    "hard": 0
+  }
 }
