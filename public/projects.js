@@ -110,5 +110,13 @@ export default [
   {
     "maintainer": "UjjawalGupta30",
     "project": "ConnectX-Backend"
-  }
+  },
+	{
+		"maintainer": "hs2361",
+    "project": "horario"
+	},
+	{
+		"maintainer": "hs2361",
+    "project": "k-means-compressor"
+	}
 ]

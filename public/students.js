@@ -138,5 +138,15 @@ export default [
     "Name": "Sakshi",
     "Roll number (eg. 2021IMT-XXX)": "2021BCS-059",
     "GitHub username": "SakshiGoyat"
+  },
+	{
+    "Name": "Siddharth Jaiswal",
+    "Roll number (eg. 2021IMT-XXX)": "2021IMG-059",
+    "GitHub username": "romantic-sid"
+  },
+	{
+    "Name": "Pradhumn Agarwal",
+    "Roll number (eg. 2021IMT-XXX)": "2021IMG-040",
+    "GitHub username": "PradhumnAgarwal"
   }
 ]
