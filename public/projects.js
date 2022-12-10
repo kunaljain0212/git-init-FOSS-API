@@ -98,5 +98,25 @@ export default [
   {
     "maintainer": "sadityakumar9211",
     "project": "nextjs-nft-marketplace"
-  }
+  },
+	{
+    "maintainer": "sohan2410",
+    "project": "GitFest"
+  },
+  {
+    "maintainer": "UjjawalGupta30",
+    "project": "ConnectX-Frontend"
+  },
+  {
+    "maintainer": "UjjawalGupta30",
+    "project": "ConnectX-Backend"
+  },
+	{
+		"maintainer": "hs2361",
+    "project": "horario"
+	},
+	{
+		"maintainer": "hs2361",
+    "project": "k-means-compressor"
+	}
 ]

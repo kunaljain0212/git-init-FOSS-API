@@ -111,7 +111,42 @@ export default [
   },
   {
     "Name": "Vani Bandodkar",
-    "Roll number (eg. 2021IMT-XXX)": "2021-IMT-108",
+    "Roll number (eg. 2021IMT-XXX)": "2021IMT-108",
     "GitHub username": "bismuth42"
+  },
+	{
+    "Name": "Satyabrat Ojha",
+    "Roll number (eg. 2021IMT-XXX)": "2021IMG-054",
+    "GitHub username": "Satyabrat-Ojha"
+  },
+  {
+    "Name": "Riya Jain",
+    "Roll number (eg. 2021IMT-XXX)": "2021IMG-050",
+    "GitHub username": "jriyyya"
+  },
+  {
+    "Name": "Spandan Barve",
+    "Roll number (eg. 2021IMT-XXX)": "2021BCS-064",
+    "GitHub username": "marsian83"
+  },
+  {
+    "Name": "Aleesha",
+    "Roll number (eg. 2021IMT-XXX)": "2021BCS-011",
+    "GitHub username": "Aleesha2002"
+  },
+  {
+    "Name": "Sakshi",
+    "Roll number (eg. 2021IMT-XXX)": "2021BCS-059",
+    "GitHub username": "SakshiGoyat"
+  },
+	{
+    "Name": "Siddharth Jaiswal",
+    "Roll number (eg. 2021IMT-XXX)": "2021IMG-059",
+    "GitHub username": "romantic-sid"
+  },
+	{
+    "Name": "Pradhumn Agarwal",
+    "Roll number (eg. 2021IMT-XXX)": "2021IMG-040",
+    "GitHub username": "PradhumnAgarwal"
   }
 ]
